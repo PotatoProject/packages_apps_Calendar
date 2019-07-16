@@ -35,6 +35,7 @@ LOCAL_SDK_VERSION := current
 
 LOCAL_RESOURCE_DIR := $(addprefix $(LOCAL_PATH)/, $(res_dirs))
 
+LOCAL_USE_AAPT2 := true
 LOCAL_PACKAGE_NAME := Calendar
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags \
